@@ -1,7 +1,7 @@
 # Octa-Hack-2019
 
 ## Aim
-This website was created in Octa Hacks to facilitate the farmesrs for **ease in selling** their crops and for the buyeys to buy
+This website was created in Octa Hacks to facilitate the farmers for **ease in selling** their crops and for the buyeys to buy
 crops directly from the farmers eliminating the middle men.
 ---
 ## Table of contents
