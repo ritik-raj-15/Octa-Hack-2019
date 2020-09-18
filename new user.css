@@ -1,0 +1,66 @@
+form
+{
+    width:25%;
+    margin-top: 125px;
+    margin-left: 37.5%;
+    background: black;
+    background-size:cover;
+    color: #fff;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.box
+{
+    background:transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 11px;
+    padding: 5px;
+}
+body
+{
+    background-image: url(images/farmer.jpg);
+    margin: 0;
+    padding: 0;
+    background: url("images/farmer.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.submit
+{
+    height: 25px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+}
+.submit:hover
+{
+    border: none;
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+.logo
+{
+    width: 100;
+    position: absolute;
+    top: 8%;
+    left: 46.2%;
+}
+.select
+{
+    background:transparent;
+    color: darkgray;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 11px;
+    padding: 5px;
+}

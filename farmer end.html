@@ -1,0 +1,55 @@
+<html>
+    <head>
+       <style>
+body{background-color: cadetblue;color:black}
+       </style>
+    </head>
+    <body>
+        <center>
+            <marquee scrollamount="10px" scrolldelay="100" width="100%">
+                <img src="images/f1.jpg" height="100px">
+                <img src="images/farmer.jpg" height="100px">
+                <img src="images/f3.jpg" height="100px">
+                <img src="images/f2.jpg" height="100px">
+                <img src="images/f4.jpg" height="100px">
+                <img src="images/f5.jpg" height="100px">
+                <img src="images/f6.jpg" height="100px">
+                <img src="images/f7.jpg" height="100px">
+                <img src="images/f8.jpg" height="100px">
+                <img src="images/f9.jpg" height="100px">
+                <img src="images/f10.jpg" height="100px">
+            </marquee>
+          <h1>This is farmer end select these options and continue</h1><br><hr>
+        <form action="/action.php">
+                <h2>SELECT YOUR CROP</h2>
+
+<select name="one" onchange="if (this.value=='other'){this.form['other'].style.visibility='visible'}else {this.form['other'].style.visibility='hidden'};">
+<option selected="selected">Select...</option>
+<option value="wheat">wheat</option>
+<option value="rice">rice</option>
+<option value="sugarcane">sugarcane</option>
+<option value="tomato">tomato</option>
+<option value="potato">potato</option>
+<option value="soyabean">soyabean</option>
+<option value="carrot">carrot</option>
+<option value="other">Other</option>
+</select>
+<input type="textbox" name="other" style="visibility:hidden;"/>
+                <br><br>
+                <h2>ENTER YOUR QUANTITY</h2>
+                <input type="text" name="quantity"><select name="kg">
+                <option value="g">g</option>
+                <option value="Kg">Kg</option>
+                <option value="quintal">quintal</option>
+                <option value="Tons">Tons</option>
+              </select><br><br>
+                <h2>ENTER THE AMOUNT YOU WANT</h2>
+                <input type="text" name="amount"><br><br><br>
+                <input type="submit" name="submit"style="width:100px;height:25px"><br><br><br>
+                <hr>
+                <h2>If you had any problem tell us we will try to help you</h2><br>
+                <textarea name="problem" rows="8" cols="80"></textarea>
+        </form>
+        </center>
+    </body>
+</html>

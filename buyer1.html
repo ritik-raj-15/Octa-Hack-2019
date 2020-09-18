@@ -1,0 +1,102 @@
+<html>
+ <head>
+  <title>Search Me</title>
+  <meta name="viewreport" content="width=device-width", intial-scale=1>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+     <script>
+         var val;
+function sliderChange(val) {
+	document.getElementById('sliderStatus').innerHTML = val;
+}
+</script>
+
+  <style>
+  #hr1 {
+  border: 3px solid green;
+  border-radius: 5px;
+}
+  #div1{height:600;width:150;border-radius: 10px;}
+  #p1{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     margin-left: 10px;
+    }
+   body{
+    background: #202a3f;
+   }
+   .container{
+    margin-top: 50px;
+   }
+   .glyphicon-search{
+    font-size: 20px;
+   }
+   .btn-default{
+    background: red;
+    width: 100px;
+    padding: 12.5px;
+   }
+   .form-control{
+    padding: 23px;
+    font-size: 20px;
+   }
+
+      td{padding: 50px;}
+
+
+  </style>
+  </head>
+  <body>
+   <div class="container">
+    <form>
+     <div class="input-group">
+     <input type="text" class="form-control" placeholder="Search" name="search">
+     <div class="input-group-btn">
+     <button class="btn btn-default" type="submit">
+     <i class="glyphicon glyphicon-search"></i></button>
+    </div>
+   </div>
+    </form>
+   </div>
+
+
+
+
+      <div>
+          <center>
+          <table>
+          <tr rowspan="3">
+
+          </tr>
+          <tr>
+              <td rowspan="2"  width="100%" style="text-align:left">
+                <div id="div1" style="background-color:white" margin="10">
+                PLEASE SELECT AREA:
+                <hr id="hr1">
+                <p id="p1">
+                <input type="checkbox" name="select" value="Jhansala">Jhansala<br>
+                <input type="checkbox" name="select" value="Banur">Banur<br>
+                <input type="checkbox" name="select" value="Munak">Munak<br>
+                <input type="checkbox" name="select" value="Jakhal">Jakhal<br>
+                <input type="checkbox" name="select" value="Banga">Banga<br>
+                <input type="checkbox" name="select" value="Moosewala">Moosewala<br>
+                <input type="checkbox" name="select" value="Rajpura">Rajpura<br>
+                <input type="checkbox" name="select" value="Mani Majara">Mani Majara<br>
+              </p>
+                </div></td>
+              <td><a href="https://www.bigbasket.com/ps/?q=rice" target="_blank"><img src="images/rice.jpg" style="width: 300px;height: 300px;"></a></td>
+              <td><a href="https://www.bigbasket.com/ss/wheat/" target="_blank"><img src="images/wheat.jpg" style="width: 350px;height:300px;"></a>a></td>
+              <td><a href="https://www.bigbasket.com/ps/?q=cabbage" target="_blank"><img src="images/cabbage.jpg" style="width: 350px;height:300px;"></a>a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.bigbasket.com/ps/?q=corn" target="_blank"><img src="images/corn.jpg" style="width: 300px;height: 300px;"></a></td>
+                  <td><a href="https://www.bigbasket.com/ps/?q=kiwi" target="_blank"><img src="images/kiwi.jpg" style="width: 350px;height: 300px;"></a></td>
+                  <td><a href="https://www.bigbasket.com/ps/?q=carrot" target="_blank"><img src="images/carrots.jpg" style="width: 350px;height: 300px;"></a></td>
+              </tr>
+          </table>
+          </center>
+      </div>
+  </body>
+</html>
