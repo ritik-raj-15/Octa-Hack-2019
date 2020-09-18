@@ -8,6 +8,7 @@ crops directly from the farmers eliminating the middle men.
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Images](#images)
 
 ## General info
 This project is for farmer and buyer of crops.
@@ -21,3 +22,8 @@ Project is created with:
 	
 ## Setup
 To use this website login to kisanaid.com
+
+## Images
+![Home Page](./images/Homepage.png)
+![Login Page](./images/Loginpage.png)
+![Buyer-Seller Page](./images/Buyer-seller-page.png)
