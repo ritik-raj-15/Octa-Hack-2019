@@ -19,6 +19,7 @@ Project is created with:
 * CSS 
 * Javascript
 * Bootstrap 4
+* Visual Studio Code
 	
 ## Setup
 To use this website login to kisanaid.com
