@@ -11,7 +11,7 @@ crops directly from the farmers eliminating the middle men.
 * [Images](#images)
 
 ## General info
-This project is for farmer and buyer of crops.
+This project is for the farmers and buyers of crops.
 	
 ## Technologies
 Project is created with:
